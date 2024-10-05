@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.hexgame.GameController">
+    <children>
+        <Pane fx:id="gamePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-image: url(bluered.jpg);">
+            <children>
+            <Polyline fx:id="cell02_03" fill="#80ff0000" layoutX="709.0" layoutY="247.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell02_04" fill="#80ff0000" layoutX="799.0" layoutY="247.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell02_05" fill="#80ff0000" layoutX="889.0" layoutY="247.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell02_06" fill="#80ff0000" layoutX="979.0" layoutY="247.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell02_07" fill="#80ff0000" layoutX="1069.0" layoutY="247.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell02_08" fill="#80ff0000" layoutX="1159.0" layoutY="247.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell02_09" fill="#80ff0000" layoutX="1249.0" layoutY="247.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell02_10" fill="#80ff0000" layoutX="1339.0" layoutY="247.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell02_02" fill="#80ff0000" layoutX="618.0" layoutY="247.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell02_01" fill="#80ff0000" layoutX="529.0" layoutY="247.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell02_11" fill="#80ff0000" layoutX="1430.0" layoutY="247.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell01_03" fill="#80ff0000" layoutX="665.0" layoutY="162.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell01_04" fill="#80ff0000" layoutX="755.0" layoutY="162.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell01_05" fill="#80ff0000" layoutX="845.0" layoutY="162.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell01_06" fill="#80ff0000" layoutX="935.0" layoutY="162.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell01_07" fill="#80ff0000" layoutX="1025.0" layoutY="162.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell01_08" fill="#80ff0000" layoutX="1115.0" layoutY="162.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell01_09" fill="#80ff0000" layoutX="1205.0" layoutY="162.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell01_10" fill="#80ff0000" layoutX="1295.0" layoutY="162.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell01_02" fill="#80ff0000" layoutX="574.0" layoutY="162.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell01_01" fill="#80ff0000" layoutX="483.0" layoutY="162.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell01_11" fill="#80ff0000" layoutX="1385.0" layoutY="162.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell03_03" fill="#80ff0000" layoutX="754.0" layoutY="329.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell03_04" fill="#80ff0000" layoutX="844.0" layoutY="329.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell03_05" fill="#80ff0000" layoutX="934.0" layoutY="329.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell03_06" fill="#80ff0000" layoutX="1024.0" layoutY="329.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell03_07" fill="#80ff0000" layoutX="1114.0" layoutY="329.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell03_08" fill="#80ff0000" layoutX="1204.0" layoutY="329.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell03_09" fill="#80ff0000" layoutX="1294.0" layoutY="329.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell03_10" fill="#80ff0000" layoutX="1384.0" layoutY="329.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell03_02" fill="#80ff0000" layoutX="663.0" layoutY="329.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell03_01" fill="#80ff0000" layoutX="572.0" layoutY="329.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell03_11" fill="#80ff0000" layoutX="1474.0" layoutY="329.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell05_03" fill="#80ff0000" layoutX="844.0" layoutY="497.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell05_04" fill="#80ff0000" layoutX="934.0" layoutY="497.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell05_05" fill="#80ff0000" layoutX="1024.0" layoutY="497.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell05_06" fill="#80ff0000" layoutX="1114.0" layoutY="497.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell05_07" fill="#80ff0000" layoutX="1204.0" layoutY="497.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell05_08" fill="#80ff0000" layoutX="1294.0" layoutY="497.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell05_09" fill="#80ff0000" layoutX="1384.0" layoutY="497.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell05_10" fill="#80ff0000" layoutX="1474.0" layoutY="497.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell05_02" fill="#80ff0000" layoutX="753.0" layoutY="497.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell05_01" fill="#80ff0000" layoutX="662.0" layoutY="497.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell05_11" fill="#80ff0000" layoutX="1564.0" layoutY="497.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell04_03" fill="#80ff0000" layoutX="800.0" layoutY="412.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell04_04" fill="#80ff0000" layoutX="890.0" layoutY="412.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell04_05" fill="#80ff0000" layoutX="980.0" layoutY="412.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell04_06" fill="#80ff0000" layoutX="1070.0" layoutY="412.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell04_07" fill="#80ff0000" layoutX="1160.0" layoutY="412.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell04_08" fill="#80ff0000" layoutX="1250.0" layoutY="412.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell04_09" fill="#80ff0000" layoutX="1340.0" layoutY="412.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell04_10" fill="#80ff0000" layoutX="1430.0" layoutY="412.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell04_02" fill="#80ff0000" layoutX="709.0" layoutY="412.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell04_01" fill="#80ff0000" layoutX="618.0" layoutY="412.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell04_11" fill="#80ff0000" layoutX="1520.0" layoutY="412.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell06_03" fill="#80ff0000" layoutX="889.0" layoutY="579.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell06_04" fill="#80ff0000" layoutX="979.0" layoutY="579.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell06_05" fill="#80ff0000" layoutX="1069.0" layoutY="579.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell06_06" fill="#80ff0000" layoutX="1159.0" layoutY="579.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell06_07" fill="#80ff0000" layoutX="1249.0" layoutY="579.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell06_08" fill="#80ff0000" layoutX="1339.0" layoutY="579.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell06_09" fill="#80ff0000" layoutX="1429.0" layoutY="579.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell06_10" fill="#80ff0000" layoutX="1519.0" layoutY="579.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell06_02" fill="#80ff0000" layoutX="798.0" layoutY="579.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell06_01" fill="#80ff0000" layoutX="707.0" layoutY="579.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell06_11" fill="#80ff0000" layoutX="1609.0" layoutY="579.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell07_03" fill="#80ff0000" layoutX="934.0" layoutY="664.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell07_04" fill="#80ff0000" layoutX="1024.0" layoutY="664.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell07_05" fill="#80ff0000" layoutX="1114.0" layoutY="664.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell07_06" fill="#80ff0000" layoutX="1204.0" layoutY="664.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell07_07" fill="#80ff0000" layoutX="1294.0" layoutY="664.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell07_08" fill="#80ff0000" layoutX="1384.0" layoutY="664.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell07_09" fill="#80ff0000" layoutX="1474.0" layoutY="664.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell07_10" fill="#80ff0000" layoutX="1564.0" layoutY="664.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell07_02" fill="#80ff0000" layoutX="843.0" layoutY="664.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell07_01" fill="#80ff0000" layoutX="752.0" layoutY="664.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell07_11" fill="#80ff0000" layoutX="1654.0" layoutY="664.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell08_03" fill="#80ff0000" layoutX="979.0" layoutY="750.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell08_04" fill="#80ff0000" layoutX="1069.0" layoutY="750.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell08_05" fill="#80ff0000" layoutX="1159.0" layoutY="750.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell08_06" fill="#80ff0000" layoutX="1249.0" layoutY="750.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell08_07" fill="#80ff0000" layoutX="1339.0" layoutY="750.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell08_08" fill="#80ff0000" layoutX="1429.0" layoutY="750.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell08_09" fill="#80ff0000" layoutX="1519.0" layoutY="750.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell08_10" fill="#80ff0000" layoutX="1609.0" layoutY="750.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell08_02" fill="#80ff0000" layoutX="888.0" layoutY="750.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell08_01" fill="#80ff0000" layoutX="797.0" layoutY="750.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell08_11" fill="#80ff0000" layoutX="1699.0" layoutY="750.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell10_03" fill="#80ff0000" layoutX="1069.0" layoutY="918.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell10_04" fill="#80ff0000" layoutX="1159.0" layoutY="918.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell10_05" fill="#80ff0000" layoutX="1249.0" layoutY="918.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell10_06" fill="#80ff0000" layoutX="1339.0" layoutY="918.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell10_07" fill="#80ff0000" layoutX="1429.0" layoutY="918.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell10_08" fill="#80ff0000" layoutX="1519.0" layoutY="918.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell10_09" fill="#80ff0000" layoutX="1609.0" layoutY="918.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell10_10" fill="#80ff0000" layoutX="1699.0" layoutY="918.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell10_02" fill="#80ff0000" layoutX="978.0" layoutY="918.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell10_01" fill="#80ff0000" layoutX="887.0" layoutY="918.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell10_11" fill="#80ff0000" layoutX="1789.0" layoutY="918.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell09_03" fill="#80ff0000" layoutX="1025.0" layoutY="833.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell09_04" fill="#80ff0000" layoutX="1115.0" layoutY="833.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell09_05" fill="#80ff0000" layoutX="1205.0" layoutY="833.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell09_06" fill="#80ff0000" layoutX="1295.0" layoutY="833.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell09_07" fill="#80ff0000" layoutX="1385.0" layoutY="833.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell09_08" fill="#80ff0000" layoutX="1475.0" layoutY="833.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell09_09" fill="#80ff0000" layoutX="1565.0" layoutY="833.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell09_10" fill="#80ff0000" layoutX="1655.0" layoutY="833.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell09_02" fill="#80ff0000" layoutX="934.0" layoutY="833.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell09_01" fill="#80ff0000" layoutX="843.0" layoutY="833.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell09_11" fill="#80ff0000" layoutX="1745.0" layoutY="833.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell11_03" fill="#80ff0000" layoutX="1114.0" layoutY="1000.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell11_04" fill="#80ff0000" layoutX="1204.0" layoutY="1000.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell11_05" fill="#80ff0000" layoutX="1294.0" layoutY="1000.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell11_06" fill="#80ff0000" layoutX="1384.0" layoutY="1000.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell11_07" fill="#80ff0000" layoutX="1474.0" layoutY="1000.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell11_08" fill="#80ff0000" layoutX="1564.0" layoutY="1000.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell11_09" fill="#80ff0000" layoutX="1654.0" layoutY="1000.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell11_10" fill="#80ff0000" layoutX="1744.0" layoutY="1000.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell11_02" fill="#80ff0000" layoutX="1023.0" layoutY="1000.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell11_01" fill="#80ff0000" layoutX="932.0" layoutY="1000.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polyline fx:id="cell11_11" fill="#80ff0000" layoutX="1834.0" layoutY="1000.0" onMouseClicked="#initialize" points="-153.0, -85.0, -153.0, -35.0, -196.0, -8.0, -237.0, -35.0, -237.0, -85.0, -196.0, -111.0, -153.0, -85.0" strokeWidth="4.0" style="-fx-fill: white;" />
+            <Polygon fill="BLUE" layoutX="442.0" layoutY="88.0" points="118.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 163.246337890625, -14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="532.0" layoutY="88.0" points="118.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 163.246337890625, -14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="352.0" layoutY="88.0" points="118.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 163.246337890625, -14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="171.0" layoutY="88.0" points="117.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 163.246337890625, -14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="261.0" layoutY="88.0" points="118.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 163.246337890625, -14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="894.0" layoutY="88.0" points="118.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 163.246337890625, -14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="983.0" layoutY="88.0" points="118.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 163.246337890625, -14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="804.0" layoutY="88.0" points="118.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 163.246337890625, -14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="623.0" layoutY="88.0" points="117.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 163.246337890625, -14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="713.0" layoutY="88.0" points="118.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 163.246337890625, -14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="621.0" layoutY="1009.0" points="117.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 160.1268310546875, -13.852340698242188" rotate="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="713.0" layoutY="1010.0" points="117.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 160.1268310546875, -13.852340698242188" rotate="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="802.0" layoutY="1009.0" points="117.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 160.1268310546875, -13.852340698242188" rotate="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="894.0" layoutY="1010.0" points="117.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 160.1268310546875, -13.852340698242188" rotate="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="984.0" layoutY="1010.0" points="117.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 160.1268310546875, -13.852340698242188" rotate="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="1071.0" layoutY="1010.0" points="117.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 160.1268310546875, -13.852340698242188" rotate="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="1164.0" layoutY="1010.0" points="117.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 160.1268310546875, -13.852340698242188" rotate="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="1254.0" layoutY="1010.0" points="117.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 160.1268310546875, -13.852340698242188" rotate="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="1344.0" layoutY="1010.0" points="117.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 160.1268310546875, -13.852340698242188" rotate="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="1434.0" layoutY="1010.0" points="117.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 160.1268310546875, -13.852340698242188" rotate="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="1452.0" layoutY="195.0" points="-172.753662109375, -36.0, -216.0, -121.0, -216.0, -61.85234069824219" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="1497.0" layoutY="278.0" points="-172.753662109375, -36.0, -216.0, -117.0, -216.0, -61.85234069824219" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="1542.0" layoutY="360.0" points="-172.753662109375, -36.0, -216.0, -121.0, -216.0, -61.85234069824219" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="1587.0" layoutY="445.0" points="-172.753662109375, -36.0, -216.0, -121.0, -216.0, -61.85234069824219" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="1632.0" layoutY="528.0" points="-172.753662109375, -36.0, -216.0, -116.0, -216.0, -61.85234069824219" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="1677.0" layoutY="613.0" points="-172.753662109375, -36.0, -216.0, -121.0, -216.0, -61.85234069824219" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="1721.0" layoutY="698.0" points="-172.753662109375, -36.0, -216.0, -121.0, -216.0, -61.85234069824219" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="1767.0" layoutY="780.0" points="-172.753662109375, -36.0, -216.0, -115.0, -216.0, -61.85234069824219" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="1811.0" layoutY="864.0" points="-172.753662109375, -36.0, -216.0, -115.0, -216.0, -61.85234069824219" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="1856.0" layoutY="946.0" points="-172.753662109375, -36.0, -216.0, -115.0, -216.0, -61.85234069824219" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="1900.0" layoutY="1030.0" points="-172.0, -41.0, -216.0, -115.0, -215.753662109375, -68.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="376.0" layoutY="309.0" points="-92.6268310546875, -97.0, -132.5, -178.0, -92.6268310546875, -152.1222381591797" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0">
+               <rotationAxis>
+                  <Point3D z="2.0" />
+               </rotationAxis>
+            </Polygon>
+            <Polygon fill="RED" layoutX="421.0" layoutY="395.0" points="-92.6268310546875, -97.0, -132.5, -178.0, -92.6268310546875, -152.1222381591797" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="467.0" layoutY="480.0" points="-92.6268310546875, -97.0, -132.5, -178.0, -92.6268310546875, -152.1222381591797" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="512.0" layoutY="564.0" points="-92.6268310546875, -103.0, -132.5, -178.0, -92.6268310546875, -152.1222381591797" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="557.0" layoutY="645.0" points="-92.6268310546875, -103.0, -132.5, -178.0, -92.6268310546875, -152.1222381591797" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="603.0" layoutY="728.0" points="-92.6268310546875, -98.0, -132.5, -178.0, -92.6268310546875, -152.1222381591797" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="647.0" layoutY="814.0" points="-92.6268310546875, -98.0, -132.5, -178.0, -92.6268310546875, -152.1222381591797" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="693.0" layoutY="902.0" points="-92.6268310546875, -98.0, -132.5, -178.0, -92.6268310546875, -152.1222381591797" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="738.0" layoutY="984.0" points="-92.6268310546875, -98.0, -132.5, -178.0, -92.6268310546875, -152.1222381591797" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="781.0" layoutY="1068.0" points="-92.6268310546875, -98.0, -132.5, -178.0, -92.6268310546875, -152.1222381591797" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="76.0" layoutY="88.0" points="131.0, -39.85234069824219, 204.0, -39.85234069824219, 163.246337890625, -14.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="RED" layoutX="333.0" layoutY="226.0" points="-92.6268310546875, -97.0, -124.0, -171.0, -92.6268310546875, -146.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Polygon fill="BLUE" layoutX="1524.0" layoutY="1009.0" points="117.3731689453125, -39.85234069824219, 204.0, -39.85234069824219, 160.1268310546875, -13.852340698242188" rotate="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" />
+            <Button layoutX="1416.0" layoutY="73.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="97.0" style="-fx-background-color: red;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Label fx:id="countRed" layoutX="1336.0" layoutY="73.0" prefHeight="67.0" prefWidth="66.0" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-width: 3;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblPlayer1" layoutX="1532.0" layoutY="73.0" prefHeight="67.0" prefWidth="387.0" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-width: 0;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnClose" cancelButton="true" layoutX="1849.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnCloseOnAction" prefHeight="51.0" prefWidth="59.0" style="-fx-background-image: url(carpı1.png); -fx-background-position: center; -fx-background-size: 100% 100%; -fx-background-color: transparent;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button layoutX="1637.0" layoutY="10.0" mnemonicParsing="false" onAction="#goToBack" prefHeight="75.0" prefWidth="170.0" style="-fx-border-color: transparent; -fx-border-radius: 15; -fx-background-image: url(bluered.jpg); -fx-background-radius: 15; -fx-background-color: transparent; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);" text="Main Menu" textFill="#fffffffa">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label fx:id="countBlue" layoutX="1336.0" layoutY="155.0" prefHeight="67.0" prefWidth="66.0" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-width: 3;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Button layoutX="1416.0" layoutY="155.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="97.0" style="-fx-background-color: blue;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Label fx:id="lblPlayer2" layoutX="1532.0" layoutY="155.0" prefHeight="67.0" prefWidth="386.0" style="-fx-background-color: transparent; -fx-border-color: black; -fx-border-width: 0;" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblWinner" layoutX="337.0" layoutY="161.0" prefHeight="801.0" prefWidth="1219.0" style="-fx-background-image: url(&quot;bluered.jpg&quot;);" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="130.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblMove" layoutX="2.0" layoutY="996.0" prefHeight="75.0" prefWidth="1658.0" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="1319.0" layoutY="21.0" prefHeight="53.0" prefWidth="103.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0;" text="Move" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            </children></Pane>
+    </children>
+</StackPane>

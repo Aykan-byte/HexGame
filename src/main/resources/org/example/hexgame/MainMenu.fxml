@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.hexgame.GameController">
+   <children>
+      <Pane fx:id="gamePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-image: url(bluered.jpg);">
+         <children>
+            <Button fx:id="btn11x11" layoutX="875.0" layoutY="725.0" mnemonicParsing="false" onAction="#btn11x11OnAction" onMouseEntered="#callAnimation" prefHeight="75.0" prefWidth="170.0" style="-fx-background-image: url(bluered.jpg); -fx-border-color: transparent; -fx-background-color: transparent; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);" text="11x11" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn5x5" layoutX="875.0" layoutY="600.0" mnemonicParsing="false" onAction="#btn5x5OnAction" onMouseEntered="#callAnimation" prefHeight="75.0" prefWidth="170.0" style="-fx-border-color: transparent; -fx-border-radius: 15; -fx-background-image: url(bluered.jpg); -fx-background-radius: 15; -fx-background-color: transparent; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);" text="5x5" textFill="#fffffffa">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn17x17" layoutX="875.0" layoutY="850.0" mnemonicParsing="false" onAction="#btn17x17OnAction" onMouseEntered="#callAnimation" prefHeight="75.0" prefWidth="170.0" style="-fx-border-color: transparent; -fx-background-color: transparent; -fx-border-radius: 15; -fx-background-image: url(bluered.jpg); -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 0);" text="17x17" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnClose" cancelButton="true" layoutX="1852.0" layoutY="7.0" mnemonicParsing="false" onAction="#btnCloseOnAction" prefHeight="51.0" prefWidth="59.0" style="-fx-background-image: url(carpı1.png); -fx-background-position: center; -fx-background-size: 100% 100%; -fx-background-color: transparent;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <TextField fx:id="txtPlayer1" layoutX="93.0" layoutY="600.0" onAction="#takePlayerName" prefHeight="77.0" prefWidth="472.0" promptText="Player1">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtPlayer2" layoutX="93.0" layoutY="770.0" onAction="#takePlayerName" prefHeight="77.0" prefWidth="472.0" promptText="Player2">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </TextField>
+            <Button layoutX="565.0" layoutY="600.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="155.0" style="-fx-background-color: red;">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Button>
+            <Button layoutX="565.0" layoutY="768.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="155.0" style="-fx-background-color: blue;">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Button>
+            <Label layoutX="345.0" layoutY="699.0" prefHeight="53.0" prefWidth="67.0" text=" VS" textFill="#fffefe">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="500.0" fitWidth="500.0" layoutX="700.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/logo.png" />
+               </image></ImageView>
+            <Label fx:id="lblWarning" layoutX="107.0" layoutY="921.0" prefHeight="95.0" prefWidth="586.0" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblPlayer2" layoutX="121.0" layoutY="133.0" prefHeight="67.0" prefWidth="407.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0;" textFill="WHITE" visible="false">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblPlayer1" layoutX="127.0" layoutY="303.0" prefHeight="67.0" prefWidth="402.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-width: 0;" textFill="WHITE" visible="false">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblWinner" layoutX="1882.0" layoutY="1041.0" prefHeight="0.0" prefWidth="4.0" text="Label" visible="false" />
+            <Label layoutX="1159.0" layoutY="605.0" prefHeight="61.0" prefWidth="848.0" text="-Once a hexagon changes color, it cannot be changed again." textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="1159.0" layoutY="678.0" prefHeight="61.0" prefWidth="466.0" text="-The game starts with red color." textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="1159.0" layoutY="762.0" prefHeight="61.0" prefWidth="744.0" text="-The blue player tries to reach from the top edge to the bottom edge." textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="1159.0" layoutY="845.0" prefHeight="61.0" prefWidth="736.0" text="-The red player tries to reach from the left edge to the right edge." textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="1159.0" layoutY="927.0" prefHeight="61.0" prefWidth="744.0" text="-Once the game ends, hexagons cannot be pressed anymore." textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="1159.0" layoutY="527.0" prefHeight="61.0" prefWidth="658.0" text="-It's a turn-based strategy game." textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="1159.0" layoutY="436.0" prefHeight="61.0" prefWidth="466.0" text="Rules:" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</StackPane>
